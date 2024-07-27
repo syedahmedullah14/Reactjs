@@ -10,6 +10,16 @@ function Counter() {
   const decrement = () => {
     setCount(count - 1);
   }
+
+  return(
+    <div className='flex flex-col-1 justify-center'>
+    <h1>Counter App</h1>
+    <p>Count: {count} </p>
+    <button onClick={increment}>Increment</button>
+    <button onClick={decrement}>Decrement</button>
+    </div>
+    
+  )
 }
 
 export default Counter;
