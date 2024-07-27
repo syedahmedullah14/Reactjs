@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import './Counter.css'; // Assume you have a Counter.css file for styling
 
 function Counter() {
   const [count, setCount] = useState(0);
@@ -12,7 +11,7 @@ function Counter() {
   }
 
   return(
-    <div className='flex flex-col-1 justify-center'>
+    <div className='flex justify-center'>
     <h1>Counter App</h1>
     <p>Count: {count} </p>
     <button onClick={increment}>Increment</button>
