@@ -11,7 +11,7 @@ function Counter() {
   }
 
   return(
-    <div className='flex justify-center'>
+    <div className='flex flex-col-1 justify-center'>
     <h1>Counter App</h1>
     <p>Count: {count} </p>
     <button onClick={increment}>Increment</button>
