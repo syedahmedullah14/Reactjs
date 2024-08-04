@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Password from './Password';
 
 function Counter() {
   const [count, setCount] = useState(0);
@@ -21,6 +22,7 @@ function Counter() {
     <button onClick={increment}>Increment</button>
     <button onClick={decrement}>Decrement</button>
     <button onClick={deleteCounter}>Delete</button>
+    <Password />
     </div>
     
   )
